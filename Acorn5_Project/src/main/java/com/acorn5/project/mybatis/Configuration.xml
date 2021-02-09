@@ -3,5 +3,11 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-
+	<typeAliases>
+		<typeAlias type="com.acorn5.project.file.dto.FileDto"
+			alias="fileDto"/>
+	</typeAliases>
+	<mappers>
+		<mapper resource="com/acorn5/project/mybatis/FileMapper.xml"/>
+	</mappers>
 </configuration>
