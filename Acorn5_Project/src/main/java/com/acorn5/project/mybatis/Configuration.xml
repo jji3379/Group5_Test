@@ -7,10 +7,16 @@
 	<typeAliases>
 		<typeAlias type="com.acorn5.project.gallery.dto.GalleryDto"
 			alias="galleryDto"/>		
+		<typeAlias type="com.acorn5.project.cafe.dto.CafeDto"
+			alias="cafeDto"/>
+		<typeAlias type="com.acorn5.project.cafe.dto.CafeCommentDto"
+			alias="cafeCommentDto"/>		
 	</typeAliases>
 	
 	<!-- Mapper xml 문서의 위치  설정 -->
 	<mappers>
 		<mapper resource="com/acorn5/project/mybatis/GalleryMapper.xml"/>
+		<mapper resource="com/acorn5/project/mybatis/CafeMapper.xml"/>	
+		<mapper resource="com/acorn5/project/mybatis/CafeCommentMapper.xml"/>
 	</mappers>
 </configuration>
