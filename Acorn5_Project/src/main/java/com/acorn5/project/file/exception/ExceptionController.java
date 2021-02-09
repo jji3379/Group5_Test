@@ -1,4 +1,4 @@
-package com.acorn5.project.exception;
+package com.acorn5.project.file.exception;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

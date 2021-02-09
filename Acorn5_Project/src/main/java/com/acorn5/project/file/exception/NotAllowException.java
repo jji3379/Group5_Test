@@ -1,4 +1,4 @@
-package com.acorn5.project.exception;
+package com.acorn5.project.file.exception;
 
 public class NotAllowException extends RuntimeException{
 	//생성자
